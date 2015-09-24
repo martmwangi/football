@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+}
+.car{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/off.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+
+    -webkit-animation-carz;
+    -webkit-animation-duration:2s;
+    animation-name: carz;
+    animation-duration: 2s;
+}
+@keyframe carz{
+    from{background-image: url(/images/off.png);
+        to{background-image: url(/images/on.png);}
+    }
+}
+
+.car:hover{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/on.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+
+}
