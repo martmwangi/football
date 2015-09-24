@@ -36,19 +36,43 @@
 
 @include keyframes(slider-lg) {
  0%{
-   background-image: url(../images/banner-1.jpg);
+   background-image: url(../images/on1.png);
  }
  33%{
-   background-image: url(../images/banner-2.jpg);
+   background-image: url(../images/on3.png);
  }
  66%{
-   background-image: url(../images/banner-3.jpg);
+   background-image: url(../images/on5.png);
  }
  100%{
-   background-image: url(../images/banner-1.jpg);
+   background-image: url(../images/on9.png);
  }
 }
 
+
+
+.banner-bg{
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ top: 0;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position:50%;
+ z-index:0;
+
+
+ /*-- Add mobile keyframe animation --*/
+ @include animation(slider-sm ease-in-out 1s both infinite);
+
+ @media (min-width: 32ems) {
+  /*-- Fallback image for desktop --*/
+  background-image:url(../images/on8.png);
+
+  /*-- Add desktop keyframe animation via bourbon mixin --*/
+  @include animation(slider-lg ease-in-out 1s both infinite);
+ }
+}
 
 
 
