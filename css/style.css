@@ -5,14 +5,20 @@
 body{
     margin: 0;
     padding: 0;
+    background-size: cover;
+    width: 100%;
+
 
 }
 .container{
-    min-width: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
+    background-size: cover;
 }
-
+.row{
+    width: 100%;
+}
 .slider {
 
   width: 100%;
@@ -20,6 +26,7 @@ body{
   margin: 0px auto;
   position: relative;
   text-align: center;
+ background-position: center;
 }
 .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9{
   position: absolute;
@@ -31,64 +38,58 @@ body{
   background: url(../images/off.jpg)no-repeat center;
       background-size: cover;
     animation:fade 8s infinite;
--webkit-animation:fade 1s infinite;
+-webkit-animation:fade 8s infinite;
 
 }
 .slide2 {
-  background: url(../images/on2.jpg)no-repeat center;
+  background: url(../images/off.jpg)no-repeat center;
       background-size: cover;
     animation:fade2 6s infinite;
--webkit-animation:fade2 1s infinite;
+-webkit-animation:fade2 4s infinite;
 }
 .slide3 {
-    background: url(../images/on3.jpg)no-repeat center;
+    background: url(../images/off.jpg)no-repeat center;
       background-size: cover;
-    animation:fade3 6s infinite;
--webkit-animation:fade3 1s infinite;
+    animation:fade3 4s infinite;
+-webkit-animation:fade3 4s infinite;
 }
 .slide4 {
-  background: url(../images/on4.jpg)no-repeat center;
+  background: url(../images/off.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 6s infinite;
--webkit-animation:fade 1s infinite;
+    animation:fade 4s infinite;
+-webkit-animation:fade 4s infinite;
 
 }
 .slide5 {
-  background: url(../images/on5.jpg)no-repeat center;
+  background: url(../images/on1.jpg)no-repeat center;
       background-size: cover;
     animation:fade 4s infinite;
 -webkit-animation:fade 4s infinite;
 
 }
 .slide6 {
-  background: url(../images/on6.jpg)no-repeat center;
+  background: url(../images/on2.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 6s infinite;
--webkit-animation:fade 1s infinite;
+    animation:fade 4s infinite;
+-webkit-animation:fade 4s infinite;
 
 }
 .slide7 {
-  background: url(../images/on7.jpg)no-repeat center;
+  background: url(../images/on4.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 6s infinite;
--webkit-animation:fade 1s infinite;
+    animation:fade 4s infinite;
+-webkit-animation:fade 4s infinite;
 
 }
 .slide8 {
-  background: url(../images/on8.jpg)no-repeat center;
+  background: url(../images/on6.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 6s infinite;
--webkit-animation:fade 1s infinite;
+    animation:fade 4s infinite;
+-webkit-animation:fade 4s infinite;
 
 }
 
-.slide9 {
-  background: url(../images/on9.jpg)no-repeat center;
-      background-size: cover;
-    animation:fade 6s infinite;
--webkit-animation:fade 1s infinite;
 
-}
 
 
 
