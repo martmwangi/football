@@ -43,31 +43,97 @@
   position: relative;
   text-align: center;
 }
-.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,slide7,slide8{
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9{
   position: absolute;
   width: 100%;
   height:500px;
 }
 
 .slide1 {
-  background: url(../images/on1.png)no-repeat center;
+  background: url(../images/on1.jpg)no-repeat center;
       background-size: cover;
     animation:fade 2s infinite;
 -webkit-animation:fade 2s infinite;
 
 }
 .slide2 {
-  background: url(../images/on2.png)no-repeat center;
+  background: url(../images/on2.jpg)no-repeat center;
       background-size: cover;
     animation:fade2 2s infinite;
 -webkit-animation:fade2 2s infinite;
 }
 .slide3 {
-    background: url(../images/on6.png)no-repeat center;
+    background: url(../images/on3.jpg)no-repeat center;
       background-size: cover;
     animation:fade3 2s infinite;
 -webkit-animation:fade3 2s infinite;
 }
+.slide4 {
+  background: url(../images/on4.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 2s infinite;
+-webkit-animation:fade 2s infinite;
+
+}
+.slide5 {
+  background: url(../images/on5.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 2s infinite;
+-webkit-animation:fade 2s infinite;
+
+}
+.slide6 {
+  background: url(../images/on6.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 2s infinite;
+-webkit-animation:fade 2s infinite;
+
+}
+.slide7 {
+  background: url(../images/on7.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 2s infinite;
+-webkit-animation:fade 2s infinite;
+
+}
+.slide8 {
+  background: url(../images/on8.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 2s infinite;
+-webkit-animation:fade 2s infinite;
+
+}
+
+.slide9 {
+  background: url(../images/on9.jpg)no-repeat center;
+      background-size: cover;
+    animation:fade 2s infinite;
+-webkit-animation:fade 2s infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes fade
 {
   0%   {opacity:1}
