@@ -1,43 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
 .container{
-    width: 100%;
-}
-/*
-.car{
-    width: 100%;
-    height: 100vh;
-    background-image: url(/images/off.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    min-width: 100%;
     margin: 0;
     padding: 0;
-
-    -webkit-animation-carz;
-    -webkit-animation-duration:2s;
-    animation-name: carz;
-    animation-duration: 2s;
 }
-@keyframe carz{
-    from{background-image: url(/images/off.png);
-        to{background-image: url(/images/on.png);}
-    }
-}
-
-.car:hover{
-    width: 100%;
-    height: 100vh;
-    background-image: url(/images/on.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-
-}
-*/
 
 .slider {
 
-    font-family: goblin-one;
-  max-width:  100%;
+  width: 100%;
   height: 100vh;
   margin: 0px auto;
   position: relative;
@@ -46,91 +24,71 @@
 .slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9{
   position: absolute;
   width: 100%;
-  height:500px;
+  height: 100vh;
 }
 
 .slide1 {
-  background: url(../images/on1.jpg)no-repeat center;
+  background: url(../images/off.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 2s infinite;
--webkit-animation:fade 2s infinite;
+    animation:fade 8s infinite;
+-webkit-animation:fade 1s infinite;
 
 }
 .slide2 {
   background: url(../images/on2.jpg)no-repeat center;
       background-size: cover;
-    animation:fade2 2s infinite;
--webkit-animation:fade2 2s infinite;
+    animation:fade2 6s infinite;
+-webkit-animation:fade2 1s infinite;
 }
 .slide3 {
     background: url(../images/on3.jpg)no-repeat center;
       background-size: cover;
-    animation:fade3 2s infinite;
--webkit-animation:fade3 2s infinite;
+    animation:fade3 6s infinite;
+-webkit-animation:fade3 1s infinite;
 }
 .slide4 {
   background: url(../images/on4.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 2s infinite;
--webkit-animation:fade 2s infinite;
+    animation:fade 6s infinite;
+-webkit-animation:fade 1s infinite;
 
 }
 .slide5 {
   background: url(../images/on5.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 2s infinite;
--webkit-animation:fade 2s infinite;
+    animation:fade 4s infinite;
+-webkit-animation:fade 4s infinite;
 
 }
 .slide6 {
   background: url(../images/on6.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 2s infinite;
--webkit-animation:fade 2s infinite;
+    animation:fade 6s infinite;
+-webkit-animation:fade 1s infinite;
 
 }
 .slide7 {
   background: url(../images/on7.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 2s infinite;
--webkit-animation:fade 2s infinite;
+    animation:fade 6s infinite;
+-webkit-animation:fade 1s infinite;
 
 }
 .slide8 {
   background: url(../images/on8.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 2s infinite;
--webkit-animation:fade 2s infinite;
+    animation:fade 6s infinite;
+-webkit-animation:fade 1s infinite;
 
 }
 
 .slide9 {
   background: url(../images/on9.jpg)no-repeat center;
       background-size: cover;
-    animation:fade 2s infinite;
--webkit-animation:fade 2s infinite;
+    animation:fade 6s infinite;
+-webkit-animation:fade 1s infinite;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
