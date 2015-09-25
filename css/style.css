@@ -33,13 +33,8 @@ body{
     border-image: url(/images/off.jpg);
     background-size: cover;
     width: 100%;
-
-
-
-
-
-
 }
+
 
 .greet{
     color: rgb(2,99,166);
@@ -65,9 +60,11 @@ body{
 
 }
 .push{
-margin-left: 30%;
-margin-top: 80px;
+margin-left: 80%;
+margin-top: 90px;
 position: absolute;
+float: right;
+    clear: both;
 }
 .slider {
 
