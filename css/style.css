@@ -60,7 +60,7 @@ body{
 
 }
 .push{
-    border:1px solid blue;
+
     border-radius: 100%;
 margin-top: 90px;
 position: absolute;
@@ -78,7 +78,7 @@ float: right;
 
 .push img{
     border-radius: 100%;
-    margin-top: 80px;
+
 
 }
 
@@ -209,8 +209,17 @@ border-radius: 50%;
   66.666% { opacity: 1}
   100% { opacity: 0}
 }
+/*
 
-
+Container for the bio
+*/
+#bio{
+    text-align: center;
+    display: block;
+    background-color: bisque;
+    color: black;
+    height: 250px;
+}
 
 
 
