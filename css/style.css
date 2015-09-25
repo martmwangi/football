@@ -64,6 +64,11 @@ body{
     font-weight: bolder;
 
 }
+.push{
+margin-left: 30%;
+margin-top: 80px;
+position: absolute;
+}
 .slider {
 
   width: 100%;
