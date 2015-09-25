@@ -233,7 +233,9 @@ Container for the bio
 }
 
 
-
+.parallax-container {
+      height: 300px;
+    }
 
 
 
